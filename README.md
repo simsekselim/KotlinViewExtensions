@@ -1,6 +1,6 @@
 # Abstract
 
-The kotlin-view-extensions library...
+The kotlin view extensions library...
 
 
 - [dependencies {
