@@ -5,6 +5,9 @@ import android.graphics.drawable.InsetDrawable
 import android.view.View
 import android.view.animation.Animation
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.lottie.LottieAnimationView
@@ -86,4 +89,14 @@ fun ImageView.glide(imageUrl: String) {
         .fallback(R.drawable.ic_place_holder)
         .fitCenter()
         .into(this)
+}
+
+fun AppCompatActivity.hideIme() {
+    val controller = WindowCompat.getInsetsController(window, window.decorView)
+    controller.hide(WindowInsetsCompat.Type.ime())
+}
+
+fun AppCompatActivity.showIme() {
+    val controller = WindowCompat.getInsetsController(window, window.decorView)
+    controller.show(WindowInsetsCompat.Type.ime())
 }
