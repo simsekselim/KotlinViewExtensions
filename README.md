@@ -1,6 +1,6 @@
 # Abstract
 
-The kotlin view extensions library.
+Kotlin view extensions library.
 
 Use Gradle:
 
