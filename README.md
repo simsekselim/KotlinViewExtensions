@@ -4,7 +4,10 @@ The kotlin view extensions library...
 
 
 - [dependencies {
+<br>
 	        implementation 'com.github.simsekselim:kotlinviewextensions:1.0.1'
+		
+<br>
 	}](https://jitpack.io/)
 
  
