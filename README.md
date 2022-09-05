@@ -1,11 +1,19 @@
 # Abstract
 
-The kotlin view extensions library...
+The kotlin view extensions library.
 
+Use Gradle:
 
-- [dependencies {
-	        implementation 'com.github.simsekselim:kotlinviewextensions:1.0.1'
-	}](https://jitpack.io/)
+```gradle
+repositories {
+  google()
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'com.github.simsekselim:kotlinviewextensions:1.0.1'
+}
+```
 
  
  # Author
